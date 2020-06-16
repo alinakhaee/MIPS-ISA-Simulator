@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e288ea6f-1b80-4d8c-9a08-441897e14573" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="directory" />
+    </option>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="MERGE" />
+  </component>
+  <component name="ProjectId" id="1d2nytgFBDYRdW0mQwCZqqfufzo" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/Compressed/GitLabProjects/GitLabProjects/lib" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.Main" />
+      <module name="MIPS ISA" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e288ea6f-1b80-4d8c-9a08-441897e14573" name="Default Changelist" comment="" />
+      <created>1591632312336</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1591632312336</updated>
+      <workItem from="1591632315753" duration="4712000" />
+      <workItem from="1591683306631" duration="11710000" />
+      <workItem from="1591698972573" duration="40000" />
+      <workItem from="1591882183485" duration="45000" />
+      <workItem from="1592153382667" duration="13785000" />
+      <workItem from="1592209556887" duration="3781000" />
+      <workItem from="1592228792462" duration="2103000" />
+      <workItem from="1592237619978" duration="31000" />
+      <workItem from="1592237840779" duration="2596000" />
+      <workItem from="1592246335563" duration="116000" />
+      <workItem from="1592246465032" duration="560000" />
+      <workItem from="1592290235511" duration="153000" />
+      <workItem from="1592309272050" duration="1039000" />
+    </task>
+    <task id="LOCAL‎۰۰۰۰۱" summary="commit">
+      <created>1592211435339</created>
+      <option name="number" value="LOCAL‎۰۰۰۰۱" />
+      <option name="presentableId" value="LOCAL‎۰۰۰۰۱" />
+      <updated>1592211435339</updated>
+    </task>
+    <task id="LOCAL‎۰۰۰۰۲" summary="initial commit">
+      <created>1592212485022</created>
+      <option name="number" value="LOCAL‎۰۰۰۰۲" />
+      <option name="presentableId" value="LOCAL‎۰۰۰۰۲" />
+      <updated>1592212485022</updated>
+    </task>
+    <task id="LOCAL‎۰۰۰۰۳" summary="initial commit">
+      <created>1592213369169</created>
+      <option name="number" value="LOCAL‎۰۰۰۰۳" />
+      <option name="presentableId" value="LOCAL‎۰۰۰۰۳" />
+      <updated>1592213369169</updated>
+    </task>
+    <task id="LOCAL‎۰۰۰۰۴" summary="second commit">
+      <created>1592213958000</created>
+      <option name="number" value="LOCAL‎۰۰۰۰۴" />
+      <option name="presentableId" value="LOCAL‎۰۰۰۰۴" />
+      <updated>1592213958000</updated>
+    </task>
+    <task id="LOCAL‎۰۰۰۰۵" summary="decode commit">
+      <created>1592230537465</created>
+      <option name="number" value="LOCAL‎۰۰۰۰۵" />
+      <option name="presentableId" value="LOCAL‎۰۰۰۰۵" />
+      <updated>1592230537465</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="1">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="structure">
+                    <value>
+                      <list>
+                        <option value="dir:E:/Projects/Java Projects/MIPS ISA/src" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="1" value="TOOL_WINDOW" />
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
+    <MESSAGE value="commit" />
+    <MESSAGE value="initial commit" />
+    <MESSAGE value="second commit" />
+    <MESSAGE value="decode commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="decode commit" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="574" y="129" key="#com.intellij.ide.util.MemberChooser" timestamp="1592156638348">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="574" y="129" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1592156638348" />
+    <state x="393" y="8" key="CommitChangelistDialog2" timestamp="1592230535138">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="393" y="8" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1592230535138" />
+    <state x="549" y="168" key="FileChooserDialogImpl" timestamp="1592309385796">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="168" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1592309385796" />
+    <state x="650" y="307" width="258" height="291" key="Github.ShareDialog" timestamp="1592310212057">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="650" y="307" width="258" height="291" key="Github.ShareDialog/0.0.1536.824@0.0.1536.824" timestamp="1592310212057" />
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1592309329119">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1592309329119" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1592309329119">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1592309329119" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1592309329118">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1592309329118" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1592309329119">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1592309329119" />
+    <state x="563" y="124" key="RollbackChangesDialog" timestamp="1592211735405">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="563" y="124" key="RollbackChangesDialog/0.0.1536.824@0.0.1536.824" timestamp="1592211735405" />
+    <state x="93" y="0" key="SettingsEditor" timestamp="1592310313186">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="93" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1592310313186" />
+    <state width="498" height="446" key="SwitcherDM" timestamp="1592159417328">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="498" height="446" key="SwitcherDM/0.0.1536.824@0.0.1536.824" timestamp="1592159417328" />
+    <state x="465" y="238" key="com.intellij.ide.util.TipDialog" timestamp="1592246465194">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="465" y="238" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1592246465194" />
+    <state x="578" y="330" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1592230623613">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="578" y="330" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1592230623613" />
+    <state x="569" y="205" key="git4idea.merge.GitPullDialog" timestamp="1592229121091">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="569" y="205" key="git4idea.merge.GitPullDialog/0.0.1536.824@0.0.1536.824" timestamp="1592229121091" />
+    <state x="574" y="278" key="git4idea.rebase.GitRebaseDialog" timestamp="1592230565058">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="574" y="278" key="git4idea.rebase.GitRebaseDialog/0.0.1536.824@0.0.1536.824" timestamp="1592230565058" />
+    <state x="510" y="155" key="git4idea.rebase.GitRebaseEditor" timestamp="1592230570457">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="510" y="155" key="git4idea.rebase.GitRebaseEditor/0.0.1536.824@0.0.1536.824" timestamp="1592230570457" />
+  </component>
+</project>
