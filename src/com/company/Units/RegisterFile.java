@@ -5,8 +5,7 @@ public class RegisterFile {
     public RegisterFile(){
         initialSetup();
     }
-    public void write(int value, int regNumber, boolean regWrite){
-        if(regWrite)
+    public void write(int value, int regNumber){
             registers[regNumber].setValue(value);
     }
     public int read(int regNumber){

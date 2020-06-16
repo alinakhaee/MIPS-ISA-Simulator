@@ -10,18 +10,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e288ea6f-1b80-4d8c-9a08-441897e14573" name="Default Changelist" comment="simple commit">
+    <list default="true" id="e288ea6f-1b80-4d8c-9a08-441897e14573" name="Default Changelist" comment="second commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/Stages/ExecutionStage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Stages/ExecutionStage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Stages/InstructionDecodeStage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Stages/InstructionDecodeStage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Stages/InstructionFetchStage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Stages/InstructionFetchStage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Units/ALU.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Units/ALU.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Units/ALUControlUnit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Units/ALUControlUnit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Units/ControlUnit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Units/ControlUnit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Units/DataMemory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Units/DataMemory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Units/InstructionMemory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Units/InstructionMemory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Units/RegisterFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Units/RegisterFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Stages/MemoryStage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Stages/MemoryStage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Stages/WriteBackStage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Stages/WriteBackStage.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,7 +102,7 @@
       <workItem from="1592290235511" duration="153000" />
       <workItem from="1592309272050" duration="1039000" />
       <workItem from="1592310324696" duration="580000" />
-      <workItem from="1592314350243" duration="8619000" />
+      <workItem from="1592314350243" duration="11597000" />
     </task>
     <task id="LOCAL‎۰۰۰۰۱" summary="commit">
       <created>1592211435339</created>
@@ -147,7 +140,13 @@
       <option name="presentableId" value="LOCAL‎۰۰۰۰۶" />
       <updated>1592310512660</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL‎۰۰۰۰۷" summary="second commit">
+      <created>1592323772116</created>
+      <option name="number" value="LOCAL‎۰۰۰۰۷" />
+      <option name="presentableId" value="LOCAL‎۰۰۰۰۷" />
+      <updated>1592323772116</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -203,16 +202,16 @@
     </ignored-roots>
     <MESSAGE value="commit" />
     <MESSAGE value="initial commit" />
-    <MESSAGE value="second commit" />
     <MESSAGE value="decode commit" />
     <MESSAGE value="simple commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="simple commit" />
+    <MESSAGE value="second commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="second commit" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="574" y="129" key="#com.intellij.ide.util.MemberChooser" timestamp="1592317016440">
+    <state x="574" y="129" key="#com.intellij.ide.util.MemberChooser" timestamp="1592327525217">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="574" y="129" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1592317016440" />
+    <state x="574" y="129" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1592327525217" />
     <state x="393" y="8" key="CommitChangelistDialog2" timestamp="1592230535138">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -257,10 +256,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.0.1536.824@0.0.1536.824" timestamp="1592159417328" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1592310527525">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1592323785731">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1592310527525" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1592323785731" />
     <state x="465" y="238" key="com.intellij.ide.util.TipDialog" timestamp="1592246465194">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

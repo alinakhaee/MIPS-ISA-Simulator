@@ -21,7 +21,7 @@ public class ExecutionStage {
         this.aluControlUnit = aluControlUnit;
         this.shifter = shifter;
         opcodeRegisterIn = new Register(0b111111);
-        aluOutput = finalRegDst = new Register();
+        aluOutput = finalRegDst = writeDataRegister = opcodeRegisterIn = PCRegisterOut = new Register();
     }
 
     public void run(){
