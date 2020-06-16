@@ -1,7 +1,7 @@
 package com.company.Units;
 
 public class DataMemory {
-    int[] data ;
+    public int[] data ;
 
     public DataMemory(int size) {
         this.data = new int[size];

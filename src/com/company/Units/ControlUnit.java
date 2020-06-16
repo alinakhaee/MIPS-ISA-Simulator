@@ -3,8 +3,8 @@ package com.company.Units;
 import com.company.Stages.InstructionDecodeStage;
 
 public class ControlUnit {
-    int ALUOp;
-    boolean jump, regWrite, ALUSrc, regDst, branch, memWrite, memRead, memToReg;
+    public int ALUOp;
+    public boolean jump, regWrite, ALUSrc, regDst, branch, memWrite, memRead, memToReg;
     public void compute(int instruction){
         if(instruction == 0b000000){      // R type
             jump = false;

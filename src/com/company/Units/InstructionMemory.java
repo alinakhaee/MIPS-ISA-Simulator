@@ -1,7 +1,7 @@
 package com.company.Units;
 
 public class InstructionMemory {
-    int[] instructions;
+    public int[] instructions;
 
     public InstructionMemory(int[] instructions) {
         this.instructions = instructions;

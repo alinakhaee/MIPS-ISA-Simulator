@@ -5,16 +5,16 @@ import com.company.Units.Register;
 import com.company.Units.RegisterFile;
 
 public class InstructionDecodeStage {
-    Register instructionRegister, PCRegisterIn; //input
-    Register A, B, immediate, regDst1, regDst2, jumpAddress, PCRegisterOut, opcodeRegister; //output
+    public Register instructionRegister, PCRegisterIn; //input
+    public Register A, B, immediate, regDst1, regDst2, jumpAddress, PCRegisterOut, opcodeRegister; //output
 
     public boolean jump, regWrite, ALUSrc, regDst, branch, memWrite, memRead, memToReg;     //control signals
     public int ALUOp = 0b000;
 
-    ControlUnit controlUnit;
-    RegisterFile registerFile;
-    int opcode, firstRegister, secondRegister, immediateValue, regDst1Value, regDst2Value;
-    String jumpString;
+    public ControlUnit controlUnit;
+    public RegisterFile registerFile;
+    public int opcode, firstRegister, secondRegister, immediateValue, regDst1Value, regDst2Value;
+    public String jumpString;
 
     public InstructionDecodeStage(ControlUnit controlUnit, RegisterFile registerFile) {
         this.controlUnit = controlUnit;
@@ -25,6 +25,8 @@ public class InstructionDecodeStage {
     public void run(){
         String instructionString = Long.toBinaryString(Integer.toUnsignedLong(instructionRegister.getValue()) | 0x100000000L).substring(1);
         opcode = Integer.parseInt(instructionString.substring(0,6),2);
+        if(opcode == 0b111111)  // stall
+            return;
         firstRegister = Integer.parseInt(instructionString.substring(6,11),2);
         secondRegister = Integer.parseInt(instructionString.substring(11,16),2);
         immediateValue = Integer.parseInt(instructionString.substring(16,32),2);

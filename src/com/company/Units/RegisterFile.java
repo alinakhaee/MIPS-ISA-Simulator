@@ -1,7 +1,7 @@
 package com.company.Units;
 
 public class RegisterFile {
-    Register[] registers = new Register[32];
+    public Register[] registers = new Register[32];
     public RegisterFile(){
         initialSetup();
     }
