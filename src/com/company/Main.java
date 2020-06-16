@@ -17,6 +17,6 @@ public class Main {
         String PCString = Long.toBinaryString(Integer.toUnsignedLong(PCRegister.getValue()) | 0x100000000L).substring(1);
         String jumpString = PCString.substring(0,4) + instructionString.substring(6,32) + "00";
         System.out.println(jumpString);
-
+        System.out.println("check if works");
     }
 }
