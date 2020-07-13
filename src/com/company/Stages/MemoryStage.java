@@ -14,7 +14,13 @@ public class MemoryStage {
     public MemoryStage(DataMemory dataMemory) {
         this.dataMemory = dataMemory;
         opcodeRegisterIn = new Register(0b111111);
-        aluOut = readDataRegister = regDst = opcodeRegisterOut = new Register();
+        aluOut = new Register();
+        readDataRegister = new Register();
+        regDst = new Register();
+        opcodeRegisterOut = new Register();
+        aluOutput = new Register();
+        writeData = new Register();
+        finalRegDst = new Register();
     }
 
     public void run(){
@@ -24,6 +30,7 @@ public class MemoryStage {
             return;
         aluOut.setValue(aluOutput.getValue());
         regDst.setValue(finalRegDst.getValue());
+        //System.out.println(aluOut.getValue());
         if(memRead)
             readDataRegister.setValue(dataMemory.read(aluOutput.getValue()/4));
         if(memWrite)
@@ -31,10 +38,10 @@ public class MemoryStage {
     }
 
     public void registerTransfer(WriteBackStage writeBackStage){
-        writeBackStage.opcodeRegister = opcodeRegisterOut;
-        writeBackStage.aluOut = aluOut;
-        writeBackStage.readData = readDataRegister;
-        writeBackStage.regDst = regDst;
+        writeBackStage.opcodeRegister.setValue(opcodeRegisterOut.getValue());
+        writeBackStage.aluOut.setValue(aluOut.getValue());
+        writeBackStage.readData.setValue(readDataRegister.getValue());
+        writeBackStage.regDst.setValue(regDst.getValue());
 
         writeBackStage.memToReg = memToReg;
         writeBackStage.regWrite = regWrite;

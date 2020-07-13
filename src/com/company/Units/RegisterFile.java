@@ -18,9 +18,9 @@ public class RegisterFile {
         registers[3] = new Register("$v1");
         registers[4] = new Register("$a0");
         registers[5] = new Register("$a1");
-        registers[6] = new Register("$a2");
+        registers[6] = new Register(1,"$a2");
         registers[7] = new Register("$a3");
-        registers[8] = new Register("$t0");
+        registers[8] = new Register(7,"$t0");
         registers[9] = new Register("$t1");
         registers[10] = new Register("$t2");
         registers[11] = new Register("$t3");
@@ -43,6 +43,6 @@ public class RegisterFile {
         registers[28] = new Register("$gp");
         registers[29] = new Register("$sp");
         registers[30] = new Register("$fp");
-        registers[31] = new Register(31,"$ra");
+        registers[31] = new Register(16, "$ra");
     }
 }

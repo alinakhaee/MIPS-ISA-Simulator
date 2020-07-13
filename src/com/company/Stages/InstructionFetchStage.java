@@ -26,7 +26,7 @@ public class InstructionFetchStage {
     }
 
     public void registerTransfer(InstructionDecodeStage instructionDecodeStage){
-        instructionDecodeStage.instructionRegister = instructionRegister;
-        instructionDecodeStage.PCRegisterIn = PCRegisterOut;
+        instructionDecodeStage.instructionRegister.setValue(instructionRegister.getValue());
+        instructionDecodeStage.PCRegisterIn.setValue(PCRegisterOut.getValue());
     }
 }

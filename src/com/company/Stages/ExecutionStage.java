@@ -22,13 +22,26 @@ public class ExecutionStage {
         this.aluControlUnit = aluControlUnit;
         this.shifter = shifter;
         opcodeRegisterIn = new Register(0b111111);
-        aluOutput = finalRegDst = writeDataRegister = opcodeRegisterOut = PCRegisterOut = new Register();
+        A = new Register();
+        B = new Register();
+        immediate = new Register();
+        regDst1 = new Register();
+        regDst2 = new Register();
+        jumpAddress = new Register();
+        PCRegisterIn = new Register();
+        aluOutput = new Register();
+        finalRegDst = new Register();
+        writeDataRegister = new Register();
+        opcodeRegisterOut = new Register();
+        PCRegisterOut = new Register();
     }
 
     public void run(){
         opcodeRegisterOut.setValue(opcodeRegisterIn.getValue());
-        if(opcodeRegisterIn.getValue() == 0b111111)  //stall
+        //System.out.println(opcodeRegisterIn.getValue());
+        if(opcodeRegisterIn.getValue() == 0b111111) { //stall
             return;
+        }
         if(jump){
             PCRegisterOut.setValue(jumpAddress.getValue());
             return;
@@ -49,16 +62,19 @@ public class ExecutionStage {
         }
         aluOutput.setValue(alu.result);
         writeDataRegister.setValue(B.getValue());
+        //System.out.println(aluOutput.getValue());
         finalRegDst.setValue(regDst ? regDst1.getValue() : regDst2.getValue());
+        //System.out.println("wow");
     }
 
     public void registerTransfers(MemoryStage memoryStage, InstructionFetchStage instructionFetchStage){
-        if(jump || branchTaken)
-            instructionFetchStage.PCRegisterIn = PCRegisterOut;
-        memoryStage.aluOutput = aluOutput;
-        memoryStage.finalRegDst = finalRegDst;
-        memoryStage.writeData = writeDataRegister;
-        memoryStage.opcodeRegisterIn = opcodeRegisterOut;
+        if(jump || branchTaken) {
+            instructionFetchStage.PCRegisterIn.setValue(PCRegisterOut.getValue());
+        }
+        memoryStage.aluOutput.setValue(aluOutput.getValue());
+        memoryStage.finalRegDst.setValue(finalRegDst.getValue());
+        memoryStage.writeData.setValue(writeDataRegister.getValue());
+        memoryStage.opcodeRegisterIn.setValue(opcodeRegisterOut.getValue());
 
         memoryStage.memWrite = memWrite;
         memoryStage.memRead = memRead;
