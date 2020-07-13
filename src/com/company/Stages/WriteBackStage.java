@@ -19,6 +19,7 @@ public class WriteBackStage {
         int temp = opcodeRegister.getValue();
         if(temp==0b111111 || temp==0b000010 || temp==4 || temp==5 || temp==43 )
             return;
-        registerFile.write(memToReg ? readData.getValue() : aluOut.getValue() , regDst.getValue());
+        if(regWrite)
+            registerFile.write(memToReg ? readData.getValue() : aluOut.getValue() , regDst.getValue());
     }
 }

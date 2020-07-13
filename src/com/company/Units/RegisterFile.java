@@ -43,6 +43,6 @@ public class RegisterFile {
         registers[28] = new Register("$gp");
         registers[29] = new Register("$sp");
         registers[30] = new Register("$fp");
-        registers[31] = new Register("$ra");
+        registers[31] = new Register(31,"$ra");
     }
 }

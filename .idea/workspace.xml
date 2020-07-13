@@ -10,11 +10,15 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e288ea6f-1b80-4d8c-9a08-441897e14573" name="Default Changelist" comment="second commit">
+    <list default="true" id="e288ea6f-1b80-4d8c-9a08-441897e14573" name="Default Changelist" comment="third comit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/Stages/ExecutionStage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Stages/ExecutionStage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Stages/InstructionDecodeStage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Stages/InstructionDecodeStage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Stages/InstructionFetchStage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Stages/InstructionFetchStage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/Stages/MemoryStage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Stages/MemoryStage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/Stages/WriteBackStage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Stages/WriteBackStage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Units/RegisterFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Units/RegisterFile.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,7 +106,13 @@
       <workItem from="1592290235511" duration="153000" />
       <workItem from="1592309272050" duration="1039000" />
       <workItem from="1592310324696" duration="580000" />
-      <workItem from="1592314350243" duration="11597000" />
+      <workItem from="1592314350243" duration="13274000" />
+      <workItem from="1592470687644" duration="25000" />
+      <workItem from="1592473043426" duration="3280000" />
+      <workItem from="1593419168725" duration="29000" />
+      <workItem from="1593806206212" duration="1655000" />
+      <workItem from="1593968373622" duration="20000" />
+      <workItem from="1594653255489" duration="396000" />
     </task>
     <task id="LOCAL‎۰۰۰۰۱" summary="commit">
       <created>1592211435339</created>
@@ -146,7 +156,13 @@
       <option name="presentableId" value="LOCAL‎۰۰۰۰۷" />
       <updated>1592323772116</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL‎۰۰۰۰۸" summary="third comit">
+      <created>1592327820041</created>
+      <option name="number" value="LOCAL‎۰۰۰۰۸" />
+      <option name="presentableId" value="LOCAL‎۰۰۰۰۸" />
+      <updated>1592327820041</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -205,7 +221,8 @@
     <MESSAGE value="decode commit" />
     <MESSAGE value="simple commit" />
     <MESSAGE value="second commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="second commit" />
+    <MESSAGE value="third comit" />
+    <option name="LAST_COMMIT_MESSAGE" value="third comit" />
   </component>
   <component name="WindowStateProjectService">
     <state x="574" y="129" key="#com.intellij.ide.util.MemberChooser" timestamp="1592327525217">
@@ -228,22 +245,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="543" y="111" key="Github.UntrackedFilesDialog/0.0.1536.824@0.0.1536.824" timestamp="1592310435980" />
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1592321384368">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1593807878663">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1592321384368" />
-    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1592321384367">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1593807878663" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1593807878663">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1592321384367" />
-    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1592321384367">
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1593807878663" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1593807878663">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1592321384367" />
-    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1592321384367">
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1593807878663" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1593807878663">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1592321384367" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1593807878663" />
     <state x="563" y="124" key="RollbackChangesDialog" timestamp="1592211735405">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -256,10 +273,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.0.1536.824@0.0.1536.824" timestamp="1592159417328" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1592323785731">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1592327829757">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1592323785731" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1592327829757" />
     <state x="465" y="238" key="com.intellij.ide.util.TipDialog" timestamp="1592246465194">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -280,5 +297,9 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="510" y="155" key="git4idea.rebase.GitRebaseEditor/0.0.1536.824@0.0.1536.824" timestamp="1592230570457" />
+    <state x="209" y="33" key="new project wizard" timestamp="1593968391584">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="209" y="33" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1593968391584" />
   </component>
 </project>

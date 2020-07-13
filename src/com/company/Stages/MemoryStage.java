@@ -18,6 +18,7 @@ public class MemoryStage {
     }
 
     public void run(){
+        opcodeRegisterOut.setValue(opcodeRegisterIn.getValue());
         int temp = opcodeRegisterIn.getValue();
         if(temp==0b111111 || temp==0b000010 || temp==4 || temp==5)  //stall, jump, beq or bne
             return;
@@ -27,6 +28,15 @@ public class MemoryStage {
             readDataRegister.setValue(dataMemory.read(aluOutput.getValue()/4));
         if(memWrite)
             dataMemory.write(aluOutput.getValue()/4, writeData.getValue());
-        opcodeRegisterOut.setValue(opcodeRegisterIn.getValue());
+    }
+
+    public void registerTransfer(WriteBackStage writeBackStage){
+        writeBackStage.opcodeRegister = opcodeRegisterOut;
+        writeBackStage.aluOut = aluOut;
+        writeBackStage.readData = readDataRegister;
+        writeBackStage.regDst = regDst;
+
+        writeBackStage.memToReg = memToReg;
+        writeBackStage.regWrite = regWrite;
     }
 }
