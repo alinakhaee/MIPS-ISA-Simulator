@@ -10,10 +10,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e288ea6f-1b80-4d8c-9a08-441897e14573" name="Default Changelist" comment="full commit&#10;i have completed the basic of the pipeline isa in mips. just customizing is left">
-      <change afterPath="$PROJECT_DIR$/src/com/company/Assembler.java" afterDir="false" />
+    <list default="true" id="e288ea6f-1b80-4d8c-9a08-441897e14573" name="Default Changelist" comment="final commit&#10;done">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Assembler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Assembler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Stages/InstructionFetchStage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Stages/InstructionFetchStage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Units/RegisterFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Units/RegisterFile.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,7 +110,10 @@
       <workItem from="1593806206212" duration="1655000" />
       <workItem from="1593968373622" duration="20000" />
       <workItem from="1594653255489" duration="431000" />
-      <workItem from="1594653907504" duration="24126000" />
+      <workItem from="1594653907504" duration="24384000" />
+      <workItem from="1594713907548" duration="2012000" />
+      <workItem from="1594970791989" duration="2748000" />
+      <workItem from="1595085006261" duration="1793000" />
     </task>
     <task id="LOCAL‎۰۰۰۰۱" summary="commit">
       <created>1592211435339</created>
@@ -170,7 +175,13 @@
       <option name="presentableId" value="LOCAL‎۰۰۰۱۰" />
       <updated>1594676003799</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL‎۰۰۰۱۱" summary="final commit&#10;done">
+      <created>1594691584073</created>
+      <option name="number" value="LOCAL‎۰۰۰۱۱" />
+      <option name="presentableId" value="LOCAL‎۰۰۰۱۱" />
+      <updated>1594691584073</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -232,13 +243,14 @@
     <MESSAGE value="third comit" />
     <MESSAGE value="fourth commit" />
     <MESSAGE value="full commit&#10;i have completed the basic of the pipeline isa in mips. just customizing is left" />
-    <option name="LAST_COMMIT_MESSAGE" value="full commit&#10;i have completed the basic of the pipeline isa in mips. just customizing is left" />
+    <MESSAGE value="final commit&#10;done" />
+    <option name="LAST_COMMIT_MESSAGE" value="final commit&#10;done" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="574" y="129" key="#com.intellij.ide.util.MemberChooser" timestamp="1592327525217">
+    <state x="574" y="129" key="#com.intellij.ide.util.MemberChooser" timestamp="1594691398803">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="574" y="129" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1592327525217" />
+    <state x="574" y="129" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1594691398803" />
     <state x="393" y="8" key="CommitChangelistDialog2" timestamp="1592230535138">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -255,22 +267,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="543" y="111" key="Github.UntrackedFilesDialog/0.0.1536.824@0.0.1536.824" timestamp="1592310435980" />
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1594691090989">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1594974448585">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1594691090989" />
-    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1594691090988">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1594974448585" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1594974448584">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1594691090988" />
-    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1594691090988">
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1594974448584" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1594974448584">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1594691090988" />
-    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1594691090989">
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1594974448584" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1594974448585">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1594691090989" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1594974448584" />
     <state x="563" y="124" key="RollbackChangesDialog" timestamp="1592211735405">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -283,10 +295,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.0.1536.824@0.0.1536.824" timestamp="1592159417328" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1594676005682">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1594691585486">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1594676005682" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1594691585486" />
     <state x="465" y="238" key="com.intellij.ide.util.TipDialog" timestamp="1592246465194">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

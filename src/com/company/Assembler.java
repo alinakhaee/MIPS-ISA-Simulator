@@ -123,7 +123,7 @@ public class Assembler {
     private String jumpAnalyze(String line, HashMap<String, Integer> variables){
         String output = "000010";
         String variableName = line.substring(2);
-        String address = String.format("%26s", Integer.toBinaryString(variables.get(variableName))).replaceAll(" ", "0");
+        String address = String.format("%26s", Integer.toBinaryString(variables.get(variableName)-1)).replaceAll(" ", "0");
         output = output + address;
         return output;
     }

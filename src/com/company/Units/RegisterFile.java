@@ -29,10 +29,10 @@ public class RegisterFile {
         registers[14] = new Register("$t6");
         registers[15] = new Register("$t7");
         registers[16] = new Register("$s0");
-        registers[17] = new Register("$s1");
+        registers[17] = new Register(1, "$s1");
         registers[18] = new Register("$s2");
-        registers[19] = new Register("$s3");
-        registers[20] = new Register("$s4");
+        registers[19] = new Register(24,"$s3");
+        registers[20] = new Register(10,"$s4");
         registers[21] = new Register("$s5");
         registers[22] = new Register("$s6");
         registers[23] = new Register("$s7");

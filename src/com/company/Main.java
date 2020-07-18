@@ -40,6 +40,9 @@ public class Main {
 
             registerTransfer(instructionFetchStage, instructionDecodeStage, executionStage, memoryStage, writeBackStage);
         }
+
+        System.out.println(registerFile.registers[16].getValue());
+        System.out.println(registerFile.registers[18].getValue());
     }
 
     public static void registerTransfer(InstructionFetchStage instructionFetchStage, InstructionDecodeStage instructionDecodeStage,

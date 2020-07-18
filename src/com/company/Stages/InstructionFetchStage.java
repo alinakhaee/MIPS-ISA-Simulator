@@ -29,4 +29,8 @@ public class InstructionFetchStage {
         instructionDecodeStage.instructionRegister.setValue(instructionRegister.getValue());
         instructionDecodeStage.PCRegisterIn.setValue(PCRegisterOut.getValue());
     }
+
+    public void printStatus(){
+        System.out.println();
+    }
 }
