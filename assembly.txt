@@ -1,0 +1,10 @@
+addi $s0, $zero, 5
+addi $s1, $zero, 7
+addi $s2, $zero, 6
+addi $t0, $zero, 1
+for: slt $t1, $t0, $s2
+beq $t1, $zero, exit
+add $s0, $s0, $s1
+addi $t0, $t0, 1
+j for
+exit: sw $s0, 0($zero)
